@@ -24,7 +24,7 @@
      login_password: ExpenseApp@1
      login_host: mysql.salearnings.tech
     register: mysql_info
-    Ignore_errors: true
+    ignore_errors: true
 
   - name: print mysql info
     ansible.builtin.debug:
