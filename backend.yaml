@@ -14,13 +14,7 @@
       state: present
     loop:
       - nodejs
-      - mysql  
-
-  - name: enable and start service
-    ansible.builtin.service:
-      name: nodejs
-      state: started
-      enabled: yes    
+      - mysql    
 
   - name: create expense user
     ansible.builtin.user:
